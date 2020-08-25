@@ -1,0 +1,25 @@
+{
+  "name": "node-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arturo96/node-mysql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arturo96/node-mysql/issues"
+  },
+  "homepage": "https://github.com/Arturo96/node-mysql#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "github:mysqljs/mysql"
+  }
+}
